@@ -1,0 +1,24 @@
+{
+  "_note": "Fallback channel list, used only when the live channel directory cannot be reached. Every URL here was checked to serve a valid HLS playlist. The primary catalogue is fetched at runtime from the public iptv-org directory.",
+  "appVersion": "1.7",
+  "latestVersion": "1.7",
+  "updateUrl": "",
+  "telegramUrl": "",
+  "licenceUrl": "",
+  "moreAppsUrl": "",
+  "forceLowQuality": false,
+  "channels": [
+    { "id": "seed-nasa-tv", "title": "NASA TV", "category": "Science", "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8", "quality": "1080p" },
+    { "id": "seed-cgtn", "title": "CGTN English", "category": "News", "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8", "quality": "1080p" },
+    { "id": "seed-france24", "title": "France 24 English", "category": "News", "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8", "quality": "720p" },
+    { "id": "seed-fuse", "title": "Fuse", "category": "Entertainment", "url": "http://23.237.104.106:8080/USA_FUSE/index.m3u8", "quality": "1080p" },
+    { "id": "seed-espnnews", "title": "ESPN News", "category": "Sports", "url": "http://41.205.93.154/ESPNNEWS/index.m3u8", "quality": "720p" },
+    { "id": "seed-30a-cars", "title": "30A We Love Cars", "category": "Auto", "url": "https://30a-tv.com/feeds/vidaa/cars.m3u8", "quality": "720p" },
+    { "id": "seed-foodfood", "title": "Food Food", "category": "Cooking", "url": "https://cdn.pishow.tv/ott/live/267/master.m3u8", "quality": "576p" },
+    { "id": "seed-3abn-kids", "title": "3ABN Kids", "category": "Animation", "url": "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8", "quality": "720p" },
+    { "id": "seed-pbs-kids", "title": "PBS Kids", "category": "Education", "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8", "quality": "720p" },
+    { "id": "seed-ebs", "title": "EBS Plus 2", "category": "Education", "url": "https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8", "quality": "400p" },
+    { "id": "seed-3cat", "title": "3Cat", "category": "Classic", "url": "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8", "quality": "1080p" },
+    { "id": "seed-1kzn", "title": "1KZN TV", "category": "Family", "url": "https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8", "quality": "576p" }
+  ]
+}
